@@ -1,0 +1,186 @@
+body{
+font-family: 'Roboto', sans-serif; 
+color: #434455;
+background-color: var(--main-text-color);
+}
+
+.link {text-decoration: none;}
+.list {list-style: none;}
+
+.header {
+}  
+
+.header-nav { 
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+color: #2E2F42;
+background-color: #FFFFFF;
+}
+.logo:active {
+color: #4d5ae5;
+}
+.logo:focus {
+text-decoration: underline;}
+.logo {
+color:#4d5ae5;
+    }
+
+.span-logo {
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+color: #2E2F42;  
+}
+
+.header-nav-lu {
+}
+.header-nav-li {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42; 
+}
+
+.address {
+}
+.address-ul {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.address-li {
+}
+.main-page {
+}
+.section-hero {
+}
+.section-hero-h1 {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+background-color: #2E2F42;
+}
+.btn {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.75;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background-color: #4d5ae5;
+
+}
+.btn:hover {
+background-color: #404bbf;
+}
+.features {
+}
+.features-h2 {
+}
+.features-ul {
+text-decoration: none;
+}
+.features-li {
+}
+.features-strategy {
+font-weight: 400;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+text-decoration: none; 
+}
+.features-strategy-p {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+text-decoration: none;   
+}
+.section-performance {
+}
+.section-performance-h2 {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+color: #2E2F42;
+text-decoration: none;
+}
+.section-performance-images {
+}
+.section-performance-img {
+}
+.team {
+    background-color: #F4F4FD;
+}
+.team-ul {
+}
+.team-ul-img {
+text-decoration: none
+}
+.team-ul-img-h3 {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+
+}
+.team-ul-p {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.footer {
+background-color: #2E2F42;
+position: absolute;
+}
+.footer-a { 
+}
+.footer-p {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5px;
+letter-spacing: 0.02em;
+color: var(--main-text-color)
+}
+.whitestudio {color:#FFFFFF;}
+
+:root{
+    --main-text-color: white;}
+    
+.div {
+    background: #F4F4FD;
+}
+.list-div:focus {
+text-decoration: underline;} 
+
+.div-link-blue {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+background: #404BBF;
+color: #FFFFFF;
+}
+.div-link {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+}
