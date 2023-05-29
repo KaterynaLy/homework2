@@ -1,186 +1,222 @@
-body{
-font-family: 'Roboto', sans-serif; 
-color: #434455;
-background-color: var(--main-text-color);
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: var(--main-text-color);
 }
 
-.link {text-decoration: none;}
-.list {list-style: none;}
-
-.header {
-}  
-
-.header-nav { 
-font-family: 'Raleway';
-font-weight: 800;
-font-size: 18px;
-line-height: 1.16;
-letter-spacing: 0.03em;
-color: #2E2F42;
-background-color: #FFFFFF;
+.link {
+    text-decoration: none;
 }
-.logo:active {
-color: #4d5ae5;
+
+.list {
+    list-style: none;
+    text-decoration: none;
 }
+
+.header-nav {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: #2E2F42;
+    background-color: #FFFFFF;
+}
+
+.logo,
+.logo:active,
 .logo:focus {
-text-decoration: underline;}
-.logo {
-color:#4d5ae5;
-    }
+    color: #4d5ae5;
+}
+
+.logo:focus {
+    text-decoration: underline;
+}
+
+.logo:hover {
+    color: #404bbf;
+}
 
 .span-logo {
-font-family: 'Raleway';
-font-weight: 800;
-font-size: 18px;
-line-height: 1.16;
-letter-spacing: 0.03em;
-color: #2E2F42;  
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #2E2F42;
+    text-transform: uppercase;
 }
 
-.header-nav-lu {
-}
 .header-nav-li {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #2E2F42; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
-.address {
-}
 .address-ul {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-style: normal;
 }
-.address-li {
-}
-.main-page {
-}
-.section-hero {
-}
-.section-hero-h1 {
-font-weight: 700;
-font-size: 56px;
-line-height: 1.07;
-letter-spacing: 0.02em;
-color: #FFFFFF;
-background-color: #2E2F42;
-}
-.btn {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.75;
-letter-spacing: 0.04em;
-color: #FFFFFF;
-background-color: #4d5ae5;
 
+.section-hero {
+    background-color: #2e2f42;
 }
-.btn:hover {
-background-color: #404bbf;
+
+.section-hero-h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background-color: #2E2F42;
+    text-align: center;
 }
-.features {
+
+.btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #4d5ae5;
+    cursor: pointer;
 }
+
+.btn:hover,
+.btn:focus {
+    background-color: #404BBF;
+}
+
 .features-h2 {
+    font-weight: 500;
 }
-.features-ul {
-text-decoration: none;
-}
-.features-li {
-}
-.features-strategy {
-font-weight: 400;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2E2F42;
-text-decoration: none; 
-}
+
+.features-strategy,
 .features-strategy-p {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-text-decoration: none;   
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    text-decoration: none;
 }
-.section-performance {
-}
+
 .section-performance-h2 {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-color: #2E2F42;
-text-decoration: none;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    text-decoration: none;
 }
-.section-performance-images {
-}
-.section-performance-img {
-}
+
 .team {
     background-color: #F4F4FD;
 }
-.team-ul {
-}
-.team-ul-img {
-text-decoration: none
-}
-.team-ul-img-h3 {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2E2F42;
 
+.team-ul {
+    background-color: #FFFFFF;
 }
+
+.team-ul-img-h3 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    text-align: center;
+    text-transform: capitalize;
+}
+
 .team-ul-p {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .footer {
-background-color: #2E2F42;
-position: absolute;
+    background-color: #2E2F42;
+    position: absolute;
 }
-.footer-a { 
-}
-.footer-p {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5px;
-letter-spacing: 0.02em;
-color: var(--main-text-color)
-}
-.whitestudio {color:#FFFFFF;}
 
-:root{
-    --main-text-color: white;}
-    
+.footer-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5px;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
+
+.span-logo-footer {
+    color: #f4f4fd;
+    line-height: 1.5;
+}
+
+.whitestudio {
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+:root {
+    --main-text-color: white;
+}
+
 .div {
     background: #F4F4FD;
 }
+
 .list-div:focus {
-text-decoration: underline;} 
+    text-decoration: underline;
+}
+
+.div-link-blue,
+.div-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+}
 
 .div-link-blue {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-background: #404BBF;
-color: #FFFFFF;
+    background: #404BBF;
+    color: #FFFFFF;
 }
-.div-link {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #4D5AE5;
+
+.button-all {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.button-all:hover,
+.button-all:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.main-h1-prtfolio {
+    list-style: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-strategy-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
