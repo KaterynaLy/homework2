@@ -13,25 +13,25 @@
     --active-accent-color: #ffffff;
     --accent-background-color: #f4f4fd;
     --active-accent-background-color: #404bbf;
-  }
-  
-  body {
+   }
+   
+   body {
     font-family: "Roboto", sans-serif;
     color: var(--primary-color);
     background-color: var(--primary-background-color);
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p {
+   }
+   
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6,
+   p {
     margin: 0;
-  }
-  
-  img {
+   }
+   
+   img {
     display: block;
     max-width: 100%;
   }
