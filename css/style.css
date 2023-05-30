@@ -225,8 +225,6 @@
     color: var(--second-footer-logo-color);
   }
   
-  
-  
   .filter-title {
     display: none;
   }
@@ -259,8 +257,6 @@
       0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
   }
-  
-  
   
   .portfolio-ul {
     font-weight: 500;
