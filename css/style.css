@@ -105,7 +105,7 @@
     letter-spacing: 0.02em;
   }
   
-  .section-hero .btn-section-hero
+  .section-hero .btn-section-hero {
     background-color: var(--accent-color);
     color: var(--white-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -117,7 +117,7 @@
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    cursor: pointer;
+    cursor: pointer;}
   
   
   .section-hero .btn-section-hero: hover,
